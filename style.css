@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: 60vw;
+    min-height: 800px;
+    background-color: white;
+}
+
+/* TODO style links */
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: url("andre-tan-THJJRUhNlEc-unsplash.jpg");
+    background-color: rgba(0, 0, 0, 0.356);
+    background-size: 60vw auto;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: 0 -300px;
+}
+
+form{
+    display: flex;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: -1em;
+    height: 2em;
+}
+
+form #search{
+    width: 100%;
+}
+
+form button{
+    width: 19%;
+    margin-left: -5px;
+}
+
+.movie-list{
+    margin-top: 2em;
+}
+
+.movie{
+    display: flex;
+    height: 225px;
+    margin: 0 3em 0 3em;
+}
+
+.movie-data{
+    margin-left: 1em;
+    width: 60vw;
+}
+
+.movie-title,
+.movie-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movie-img{
+    max-height: 200px;
+    max-width: 150px;
+}
